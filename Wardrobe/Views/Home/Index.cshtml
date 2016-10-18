@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Wardrobe";
+}
+
+<div class="jumbotron" id="jumbo">
+    <div class="container">
+        <h1>TopDawgEnt</h1>
+        <h1>        </h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6" id="homeIndexThumb">
+        <h3>@Html.ActionLink("Outfits","Index","Outfits")</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget finibus metus, eget rhoncus magna. Sed blandit risus vel volutpat laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus ornare eros quis nunc tristique, quis dictum elit malesuada.
+        </p>
+        <p><a class="btn btn-default btn-lg" @Html.ActionLink("Go","Index","Outfits")></a></p>
+    </div>
+    <div class="col-md-6" id="homeIndexThumb">
+        <h3>@Html.ActionLink("Outfits", "Index", "Outfits")</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget finibus metus, eget rhoncus magna. Sed blandit risus vel volutpat laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus ornare eros quis nunc tristique, quis dictum elit malesuada.
+        </p>
+        <p><a class="btn btn-default btn-lg" @Html.ActionLink("Go", "Index", "Home")></a></p>
+    </div>
+  </div>
